@@ -16,10 +16,10 @@ python3 gen.py
 
 ```
 --- PYTHON data_65536 512 ITERS ---
-JSON:    11.08s (2.2e+01ms/iter)
-MANUAL:  13.05s (2.5e+01ms/iter)
-MANUAL2: 49.04s (9.6e+01ms/iter)
+JSON:    11.24s (21.96ms/iter)
+MANUAL:  13.37s (26.10ms/iter)
+MANUAL2: 49.54s (96.76ms/iter)
 --- RUST data_65536 512 ITERS ---
-JSON:    7.42s (14.333984375ms/iter)
-MANUAL:  7.42s (14.486328125ms/iter)
+JSON:    7.50s (14.47265625ms/iter)
+MANUAL:  7.50s (14.654296875ms/iter)
 ```

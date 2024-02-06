@@ -71,6 +71,6 @@ raw_time_iter_ms = raw_time_us / iters / 1000.
 raw2_time_us = raw2_time.seconds * 1000. * 1000. + raw2_time.microseconds
 raw2_time_iter_ms = raw2_time_us / iters / 1000.
 
-print(f"JSON:    {json_time_us / 1000. / 1000.:.2f}s ({json_time_iter_ms:.2}ms/iter)")
-print(f"MANUAL:  {raw_time_us / 1000. / 1000.:.2f}s ({raw_time_iter_ms:.2}ms/iter)")
-print(f"MANUAL2: {raw2_time_us / 1000. / 1000.:.2f}s ({raw2_time_iter_ms:.2}ms/iter)")
+print(f"JSON:    {json_time_us / 1000. / 1000.:.2f}s ({json_time_iter_ms:.2f}ms/iter)")
+print(f"MANUAL:  {raw_time_us / 1000. / 1000.:.2f}s ({raw_time_iter_ms:.2f}ms/iter)")
+print(f"MANUAL2: {raw2_time_us / 1000. / 1000.:.2f}s ({raw2_time_iter_ms:.2f}ms/iter)")
